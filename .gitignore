@@ -1,4 +1,12 @@
 target/
+bin/
+/config
+/.idea
+/out
+
+*.iml
+*.ipr
+*.iws
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup

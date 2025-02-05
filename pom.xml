@@ -28,7 +28,7 @@
     <scm>
         <url>https://github.com/neverendingsupport/nes-struts1-test-app</url>
     </scm>
-    
+
     <build>
         <resources>
             <!-- Include resources under src/main/java in WEB-INF/classes -->
@@ -42,16 +42,23 @@
         </resources>
     </build>
 
+    <repositories>
+        <repository>
+            <id>herodevs-nes-registry</id>
+            <url>https://registry.nes.herodevs.com/maven</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts-core</artifactId>
-            <version>1.3.10</version>
+            <version>1.3.10-struts-1.3.11</version>
         </dependency>
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts-taglib</artifactId>
-            <version>1.3.10</version>
+            <version>1.3.10-struts-1.3.11</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>

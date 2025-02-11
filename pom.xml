@@ -42,17 +42,37 @@
         </resources>
     </build>
 
+    <!-- Add the HeroDevs NES Repository -->
+    <repositories>
+        <repository>
+            <id>herodevs-nes-registry</id>
+            <url>https://registry.nes.herodevs.com/maven</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>herodevs-nes-registry</id>
+            <url>https://registry.nes.herodevs.com/maven</url>
+        </pluginRepository>
+    </pluginRepositories>
+
     <dependencies>
+        <!-- HeroDevs Drop In Replacement for Struts 1.3 -->
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts-core</artifactId>
-            <version>1.3.10</version>
+            <!-- HeroDevs version -->
+            <version>1.3.10-struts-1.3.11-trial</version>
         </dependency>
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts-taglib</artifactId>
-            <version>1.3.10</version>
+            <!-- HeroDevs version -->
+            <version>1.3.10-struts-1.3.11-trial</version>
         </dependency>
+        <!-- End HeroDevs Drop In Replacement for Struts 1.3 -->
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>

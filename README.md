@@ -35,6 +35,12 @@ The steps below require Docker to be installed on your machine.
 4. Run the Docker container `docker run --rm -p 8080:8080 nes-struts1-test-app`
 5. Open the browser and navigate to `http://localhost:8080/struts-cookbook-1.3.10/`
 
+# Next Steps
+
+When you are ready to upgrade to the fully supported version of the HeroDevs Never Ending Support for Struts 1.3, please reach out to us at [HeroDevs](https://www.herodevs.com/).
+You will need to modify the `settings.xml` or `gradle.properties` to include your credentials.
+After that, check out the `nes` branch in this repository for the specific version changes.
+
 # Additional Information
 
 HeroDevs offers Never Ending Support for a [number of products](https://www.herodevs.com/support).

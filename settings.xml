@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>herodevs-nes-registry</id>
+            <username>some@email.com</username>
+            <password>some@email.com</password>
+        </server>
+    </servers>
+</settings>

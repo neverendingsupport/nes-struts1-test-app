@@ -42,7 +42,9 @@
                type="org.apache.struts.webapp.example.SaveRegistrationAction"
                name="registrationForm"
               scope="request"
-              input="registration"/>
+              input="registration">
+      <set-property property="cancellable" value="true"/>
+    </action>
 
   </action-mappings>
 
